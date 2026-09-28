@@ -41,12 +41,11 @@ for year in time:
     
 import matplotlib.pyplot as plt
 
-fig1 = plt.figure()           # create a new figure
-plt.plot(time,yearly_balances)       # plot(data in x-axis, data in y-axis)
-# The above command will join the points with line
-plt.xlabel('Time (years)')            # label for x-axis
-plt.ylabel('Value ($)')       # label for y-axis
-plt.title('Value of investment every year')  # title of the graph
-plt.grid()                    # display the grid
-plt.show()                      # to display the graph
+fig1 = plt.figure()         
+plt.plot(time,yearly_balances)
+plt.xlabel('Time (years)')    
+plt.ylabel('Value ($)')       
+plt.title('Value of investment every year')
+plt.grid()                    
+plt.show()                    
 
